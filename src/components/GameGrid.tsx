@@ -13,8 +13,8 @@ const GameGrid = () => {
       {error && <Text>There was an error fetching games.</Text>}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 3 }}
-        padding={10}
-        spacing={10}
+        padding={"10px"}
+        spacing={3}
       >
         {isLoading &&
           skeletons.map((skeleton) => (
